@@ -1,6 +1,6 @@
 document.getElementById('article-form').addEventListener('submit', async (event) => {
     event.preventDefault();
-  
+
     // Get the URL input element
     const urlInput = document.getElementById('url-input');
     if (!urlInput) {
